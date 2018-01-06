@@ -1,1 +1,137 @@
-Hello World
+<!--
+   Copyright (c) 2017 Shubham Arora (https://shubhamarora.in)
+   License - http://www.gnu.org/licenses/ (GNU General Public License Version 3)
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>.:Shubham Arora:.</title>
+    <!--Meta Tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shubham Arora">
+    <meta name="author" content="Shubham Arora">
+    <meta name="twitter:card" content="The personal site for Shubham Arora.">
+    <meta name="twitter:site" content="@sudoshubham">
+    <meta name="twitter:creator" content="@sudoshubham">
+    <meta property="og:title" content=".:Shubham Arora:.">
+    <meta property="og:description" content="The personal site for Shubham Arora">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.red-indigo.min.css"
+        integrity="sha256-CTW4p5vV2FcCPwU3gzQaLQlFI+Qix1/26y+DC11iGqU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/main.min.css" type="text/css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/me.jpg" /> </head>
+
+<body class="loading">
+    <div class="wrapper context-menu-one remodal-bg">
+        <section class="main">
+            <header translate="no">
+                <button id="pop-out-menu" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">&#xE5D4;</i> </button>
+                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="pop-out-menu">
+                    <!-- <li class="mdl-menu__item" onclick="window.location.href= '/blog'" translate="no">Developer Blog</li> -->
+                    <li class="mdl-menu__item" onclick="window.location.href= 'https://github.com/arshubham?tab=repositories'" translate="no">Projects</li>
+                </ul>
+                <div class="mdl-tooltip mdl-tooltip--right" data-mdl-for="pop-out-menu"> Menu </div> <span class="avatar"><img src="assets/img/me.jpg" id="my_img" alt="Shubham Arora" /></span>
+                <h1><a class="main-tag">Hello!</a></h1>
+                <h2>I am <span class="element">Shubham Arora.</span></h2>
+                <p class="sub-tag hidden-on-load">web developer/app developer
+                    <br>freelancer/geek</p>
+            </header>
+            <footer>
+                <ul class="social">
+                    <li>
+                        <a target="_blank" href="https://twitter.com/sudoShubham" class="twitter fa" id="twitter"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="twitter"> Twitter </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/arshubham" class="github fa" id="github"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="github"> Github </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://in.linkedin.com/in/shubhamarora868" class="linkedin fa" id="linkedin"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="linkedin"> Linkedin </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="mailto:shubhamarora@protonmail.com" class="envelope fa" id="email"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="email"> E-Mail </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.reddit.com/user/arshubham" class="reddit fa" id="reddit"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="reddit"> Reddit </div>
+                    </li>
+                </ul>
+                <ul class="social">
+                    <li>
+                        <a target="_blank" href="https://plus.google.com/+ShubhamArora11" class="google-plus fa" id="google-plus"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="google-plus"> Google Plus </div>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://t.me/shubhamarora" class="telegram fa" id="telegram"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="telegram"> Telegram </div>
+                    </li>
+                    <li>
+                        <a href="https://shubhamarora.in/blog" class="wordpress fa" id="blog"></a>
+                        <div class="mdl-tooltip mdl-tooltip--top" data-mdl-for="blog"> Developer Blog </div>
+                    </li>
+                </ul>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" data-remodal-target="modal_resume"
+                    id="resume"> <i class="material-icons">&#xE2C4;</i> Resume </button>
+                <div class="mdl-tooltip" data-mdl-for="resume"> Download My Resume </div>
+            </footer>
+        </section>
+        <footer class="footer">
+            <ul class="copyright">
+                <li onclick="window.location.href='#'">&copy; Shubham Arora, 2017</li>
+            </ul>
+        </footer>
+    </div>
+    <div class="remodal context-menu-two" data-remodal-options="hashTracking: false" data-remodal-id="modal_resume">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>Download Resume</h1>
+        <center>
+            <div id="recaptcha" class="g-recaptcha" data-sitekey="6LexqQsTAAAAAFoO5OhmVnY6s_yNBGjUqDHhO8Bg" data-callback="enableBtn"></div>
+        </center>
+        <br>
+        <button data-remodal-action="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
+        <button onclick="window.open('https://shubhamarora.in/assets/resume_ShubhamArora14BCE0905.pdf')" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent not-active"
+            id="resume-download"><i class="fa fa-cloud-download"></i> Download</button>
+    </div>
+    <div class="remodal context-menu-two" data-remodal-options="hashTracking: false" data-remodal-id="modal_view_source">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>View Source</h1>
+        <p> Do you like my work on this website? Want to view the source code?
+            <br>Head over to my GitHub profile and download the entire code. Don't forget to check out some other projects
+            I have been working on. </p>
+        <br>
+        <button data-remodal-action="cancel" data-remodal-options="hashTracking: false" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="window.open('https://github.com/arshubham/WebsiteCV')"><i class="fa fa-code-fork"></i> GitHub</button>
+    </div>
+    <!--Scripts and StyleSheets-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.5.0/jquery.contextMenu.min.js" integrity="sha256-MP9gv2enc2NbOKgW6K+YNQtImn/OXpYBj2nTZj43Idc="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" integrity="sha256-V1VQYyDCfJqlhl3BJnGu8hpodtkri7VafAzkkvd2K8c="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js" integrity="sha256-PCfu4+fnQrp4wNmVbjN1eaX4LbOvOejab0UOhjLezrw="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0="
+        crossorigin="anonymous" type='text/css' />
+    <!--Lazy Load CSS and Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.5.0/jquery.contextMenu.min.css"
+        integrity="sha256-Rq5lSTYX3OsnoQntXrKU/CyraVK0MJnXJXfozcmdoyw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" integrity="sha256-NIskOH7eNIjyJFpUeh3DlE9n1amcG/bzVKbWxuIgiH4="
+        crossorigin="anonymous" async defer/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" integrity="sha256-iJlvlQFv31232zI/zrsL/jbuubLWWr/Bv99d+XfaC7Y="
+        crossorigin="anonymous" async defer/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Great+Vibes' type='text/css'>
+    <script type="text/javascript" src="assets/js/script.min.js"></script>
+</body>
+
+</html>
